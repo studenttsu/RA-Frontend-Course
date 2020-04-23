@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+  border: 1px solid #000;
+  /* margin: 20px; */
+  padding: 20px;
+  width: 100px;
+  height: 50px;
+  overflow: auto;
+}
+
+#h2 {
+  color: blue;
+}
+
+.h3 {
+  color: blue;
+}
+
+[href="https://yandex.ru/"] {
+  color: red;
+}
+
+p.text {
+  font-size: 10px;
+}
+
+.text span {
+  text-decoration: underline;
+}
+
+.list > li {
+  background-color: #ccc;
+}
+
+/* .link:hover {
+  color: green;
+}
+
+.link:active {
+  color: green;
+}
+
+.link:visited {
+  color: green;
+}
+
+.link:link {
+  color: green;
+} */
+
+.input:focus {
+  border: 2px solid #000;
+}
+
+.input:disabled {
+  border: 2px solid #000;
+}
+
+.input:read-only {
+  border: 2px solid #000;
+}

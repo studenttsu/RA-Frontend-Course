@@ -1,15 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<!doctype html>
+<html>
+  <head>
+    <title>Заголовок</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+  </head>
 
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  <div>Example</div>
-  <p>Some text</p>
-  <a href="/">Link</a>
-</body>
+  <body>
+    <!-- Typography Start -->
+      <h1>Загловок Первого уровня</h1>
+      <h2 id="h2">Загловок 2 уровня</h2>
+      <h3 class="h3">Загловок 3 уровня</h3>
+      <h4>Загловок 4 уровня</h4>
+      <h5>Загловок 5 уровня</h5>
+      <h6>Загловок 6 уровня</h6>
+
+      <p class="text"><span>Далеко-далеко</span> за словесными горами в стране гласных, и согласных живут рыбные тексты. <br> Продолжил маленькая пояс лучше. <b>Имени</b> оксмокс запятой ее вершину деревни вопроса <strong>необходимыми</strong>, точках, <i>взгляд</i> <em>власти</em> страну семь рыбного <mark>ведущими</mark> последний?</p>
+      <p class="text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+
+      <sup>1</sup>
+      1
+      <sub>2</sub>
+
+      <hr>
+      
+      <a href="https://yandex.ru/" target="_blank">Yandex</a>
+
+      <a href="#h2" class="link">Заголовок 2</a>
+
+      <br><br><br><br>
+
+      <ul class="list">
+        <li>1</li>
+        <li>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+          </ul>
+        </li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+
+      <dl>
+        <dt>Термин</dt>
+        <dd>Определение</dd>
+
+        <dt>Термин</dt>
+        <dd>Определение</dd>
+
+        <dt>Термин</dt>
+        <dd>Определение</dd>
+      </dl>
+    <!-- Typography End -->
+
+    <br><br><br><br>
+    <br><br><br><br>
+
+    <img src="https://avatars.mds.yandex.net/get-pdb/1997607/ddccd89c-8453-4324-8bc3-d8acead3df42/s1200" width="200" height="200" alt="Alt text">
+
+    <br><br><br><br>
+    <br><br><br><br>
+
+    <!-- Forms -->
+      <form>
+        <div>
+          <label for="name">Имя</label>
+          <input class="input" value="Value" id="name" type="text" placeholder="Введите имя">
+        </div>
+
+        <div>
+          <label for="">Возраст</label>
+          <input type="number">
+        </div>
+
+        <div>
+          <input value="Value" type="checkbox">
+          <input type="checkbox">
+          <input type="checkbox">
+        </div>
+
+        <div>
+          <input name="radio-group" type="radio">
+          <input name="radio-group" type="radio">
+          <input name="radio-group" type="radio">
+        </div>
+
+        <div>
+          <select name="Select" id="">
+            <option></option>
+            <option value="1">Option1</option>
+            <option value="2" selected>Option2</option>
+          </select>
+
+          <select name="Select" multiple>
+            <option></option>
+            <option value="1">Option1</option>
+            <option value="2" selected>Option2</option>
+          </select>
+        </div>
+
+        <input type="file">
+
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+      </form>
+
+    <!-- Forms end -->
+
+    <br><br><br><br>
+    <br><br><br><br>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td colspan="2">1</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br><br><br><br>
+    <br><br><br><br>
+
+    <div></div>
+    <header></header>
+    <footer></footer>
+    <main></main>
+    <article></article>
+    <section></section>
+    <nav></nav>
+    <aside></aside>
+
+  </body>
 </html>
