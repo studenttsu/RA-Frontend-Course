@@ -30,7 +30,7 @@ body {
   padding: 25px 40px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: 0.1s background;
+  transition: 0.1s background-color;
 }
 
 .btn:hover {
